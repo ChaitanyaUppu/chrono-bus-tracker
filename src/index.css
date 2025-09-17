@@ -8,50 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 20% 98%;
-    --foreground: 213 31% 15%;
+    --background: 0 0% 100%;
+    --foreground: 220 100% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 213 31% 15%;
+    --card-foreground: 220 100% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 213 31% 15%;
+    --popover-foreground: 220 100% 20%;
 
-    --primary: 197 71% 73%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 220 100% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 197 71% 73%;
-    --secondary-foreground: 213 31% 15%;
+    --secondary: 220 100% 95%;
+    --secondary-foreground: 220 100% 20%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 220 100% 98%;
+    --muted-foreground: 220 100% 40%;
 
-    --accent: 197 71% 92%;
-    --accent-foreground: 213 31% 15%;
+    --accent: 220 100% 96%;
+    --accent-foreground: 220 100% 20%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 197 71% 73%;
+    --border: 220 100% 90%;
+    --input: 220 100% 90%;
+    --ring: 220 100% 50%;
 
     --radius: 0.75rem;
     
-    /* Transit theme colors - all sky blue */
-    --transit-blue: 197 71% 73%;
-    --transit-green: 197 71% 73%;
-    --transit-orange: 197 71% 73%;
+    /* Transit theme colors - blue and white */
+    --transit-blue: 220 100% 50%;
+    --transit-green: 220 100% 50%;
+    --transit-orange: 220 100% 50%;
     --surface-elevated: 0 0% 100%;
-    --surface-subtle: 220 14% 96%;
+    --surface-subtle: 220 100% 98%;
     
-    /* Solid colors instead of gradients */
-    --gradient-primary: hsl(197 71% 73%);
+    /* Solid colors */
+    --gradient-primary: hsl(220 100% 50%);
     --gradient-surface: hsl(0 0% 100%);
     
     /* Shadows */
-    --shadow-card: 0 4px 6px -1px hsl(197 71% 73% / 0.1), 0 2px 4px -2px hsl(197 71% 73% / 0.1);
-    --shadow-elevated: 0 10px 15px -3px hsl(197 71% 73% / 0.1), 0 4px 6px -4px hsl(197 71% 73% / 0.1);
+    --shadow-card: 0 4px 6px -1px hsl(220 100% 50% / 0.1), 0 2px 4px -2px hsl(220 100% 50% / 0.1);
+    --shadow-elevated: 0 10px 15px -3px hsl(220 100% 50% / 0.1), 0 4px 6px -4px hsl(220 100% 50% / 0.1);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -75,41 +75,41 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 213 31% 9%;
-    --foreground: 220 14% 96%;
+    --background: 220 100% 10%;
+    --foreground: 0 0% 100%;
 
-    --card: 213 31% 12%;
-    --card-foreground: 220 14% 96%;
+    --card: 220 100% 15%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 213 31% 12%;
-    --popover-foreground: 220 14% 96%;
+    --popover: 220 100% 15%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 197 71% 73%;
-    --primary-foreground: 213 31% 9%;
+    --primary: 220 100% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 197 71% 73%;
-    --secondary-foreground: 213 31% 9%;
+    --secondary: 220 100% 20%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 213 31% 15%;
-    --muted-foreground: 215 16% 65%;
+    --muted: 220 100% 20%;
+    --muted-foreground: 0 0% 80%;
 
-    --accent: 213 31% 15%;
-    --accent-foreground: 220 14% 96%;
+    --accent: 220 100% 25%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 220 14% 96%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 213 31% 18%;
-    --input: 213 31% 18%;
-    --ring: 197 71% 73%;
+    --border: 220 100% 30%;
+    --input: 220 100% 30%;
+    --ring: 220 100% 60%;
     
     /* Dark mode transit theme */
-    --surface-elevated: hsl(213 31% 12%);
-    --surface-subtle: hsl(213 31% 15%);
+    --surface-elevated: hsl(220 100% 15%);
+    --surface-subtle: hsl(220 100% 20%);
     
-    /* Solid colors instead of gradients */
-    --gradient-primary: hsl(197 71% 73%);
-    --gradient-surface: hsl(213 31% 12%);
+    /* Solid colors */
+    --gradient-primary: hsl(220 100% 60%);
+    --gradient-surface: hsl(220 100% 15%);
     
     /* Dark shadows */
     --shadow-card: 0 4px 6px -1px hsl(0 0% 0% / 0.3), 0 2px 4px -2px hsl(0 0% 0% / 0.3);

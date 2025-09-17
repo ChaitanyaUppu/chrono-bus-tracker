@@ -53,8 +53,8 @@ const BusMap: React.FC<BusMapProps> = ({ buses, selectedBus, className = "h-96" 
   useEffect(() => {
     if (!mapRef.current) return;
 
-    // Initialize map
-    const defaultCenter: [number, number] = [40.7128, -74.0060];
+    // Initialize map centered on Punjab, India
+    const defaultCenter: [number, number] = [31.1471, 75.3412]; // Jalandhar, Punjab
     const initialCenter = selectedBus 
       ? [selectedBus.location.lat, selectedBus.location.lng] as [number, number]
       : defaultCenter;

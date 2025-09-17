@@ -36,7 +36,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="bg-gradient-primary text-white py-6 px-4">
+      {/* <header className="bg-gradient-primary text-white py-6 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center space-x-3 mb-2">
             <div className="p-2 bg-white/20 rounded-lg">
@@ -46,7 +46,7 @@ const Index = () => {
           </div>
           <p className="text-white/90">Real-time bus tracking and route planning</p>
         </div>
-      </header>
+      </header> */}
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

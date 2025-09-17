@@ -45,7 +45,7 @@ const LocationSearch: React.FC<LocationSearchProps> = ({ onSearch }) => {
 
         <Button 
           onClick={handleSearch} 
-          className="w-full h-12 text-base font-semibold bg-gradient-primary hover:opacity-90 transition-all duration-300 transform hover:scale-[1.02]"
+          className="w-full h-12 text-base font-semibold bg-black -primary hover:opacity-90 transition-all duration-300 transform hover:scale-[1.02]"
           disabled={!from.trim() || !to.trim()}
         >
           <Search className="w-4 h-4 mr-2" />
